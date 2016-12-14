@@ -2,8 +2,13 @@
 
 ## Descripción
 
-El objetivo es facilitar el uso del repositorio a todo tipo de usuarios, ya estén familizarizados con gitbook y github o no. Para ello haremos
-uso de la API de GitHub para poder crearle un repo en la plataforma.
+El objetivo de esta práctica es poder conectarse al libro mediante el uso del protocolo https. Para 
+ello se ha cambiado la funcionalidad del plugin del iaas de manera que, cuando se despliegue en dicho servidor,
+se debería acceder a la url con el siguiente formato:
+
+[https://10.6.128.159:8080](https://10.6.128.159:8080)
+
+pero poniendo la ip de tu servidor.
 
 
 
@@ -51,12 +56,6 @@ La siguiente función es la que se utiliza para guardar el token que se obtiene
 					});
 				});
 ```
-
-**No Crear repositorio**
-* Si no quieres que se te cree el repositorio en Github simplemente ejecuta la siguiente opción
-		
-     ```gitbook-start --dir Carpeta``` !!Si no ejecutas el --dir se creará una carpeta con tu nombre de usuario
-
 
 
 **3. Entra en la carpeta**
@@ -127,10 +126,8 @@ elegido en el package.json.
 ## Enlaces interesantes 
  
 * [NPM](https://www.npmjs.com/package/gitbook-start-elt)
-* [Repositorio de la práctica](https://github.com/ULL-ESIT-SYTW-1617/crear-repositorio-en-github-ericlucastania-1.git)
-* [Descripción de la tarea campus](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicagithubapi.html)
-* [PLUGIN HEROKU](https://github.com/ULL-ESIT-SYTW-1617/gitbook-start-heroku-ericlucastania.git)
-* [NPM PLUGIN HEROKU](https://www.npmjs.com/package/gitbook-start-plugin-heroku-ericlucastania)
+* [Repositorio de la práctica](https://github.com/ULL-ESIT-SYTW-1617/https-al-servidor-del-libro-ericlucastania)
+* [Descripción de la tarea campus](https://crguezl.github.io/ull-esit-1617/practicas/practicassl.html)
 * [PLUGIN IAAS](https://github.com/ULL-ESIT-SYTW-1617/gitbook-start-iaas-ull-es-ericlucastania)
 * [NPM PLUGIN IAAS](https://www.npmjs.com/package/gitbook-start-plugin-iass-ull-es-ericlucastania)
 
